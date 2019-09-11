@@ -1,0 +1,7 @@
+{% extends "html.tpl" %}
+{% block table %}
+<h3 style="width:485px;">
+    {{ table_title|default("My Table") }}
+</h3>
+{{ super() }}
+{% endblock table %}
